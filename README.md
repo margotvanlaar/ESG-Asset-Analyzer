@@ -15,7 +15,9 @@ A tool for analyzing and matching ESG assets to companies using NLP and LLMs.
 ```
 
 2. Navigate to project directory
-
+```bash
+cd <<project directory>>
+```  
 3. Install dependencies
 ```bash
 pip install -r requirements.txt
