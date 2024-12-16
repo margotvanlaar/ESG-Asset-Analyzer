@@ -14,15 +14,23 @@ A tool for analyzing and matching ESG assets to companies using NLP and LLMs.
    git clone https://github.com/margotvanlaar/ESG-Asset-Analyzer.git
 ```
 
-3. Navigate to project directory
+2. Navigate to project directory
 
-4. Install dependencies
+3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
-1. Run main script:
+1. Create config.json file
+Create config.json file in root directory, containing valid openAI API key:
+```bash
+{
+"OPENAI_KEY": "<<insert key>>"
+}
+```
+
+2. Run main script:
  ```bash
    python main.py
 ```
