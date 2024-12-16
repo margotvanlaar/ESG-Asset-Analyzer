@@ -41,3 +41,4 @@ Create config.json file in root directory, containing valid openAI API key:
 - This module analyzes all assets in asset_data.csv and determines relevant matches to companies in isin_companies.csv
 - Uses fuzzy matching to generate shortlist of potentially relevant companies in isin_companies.csv
 - Passes the shortlist to an LLM to get a final match
+- Results are saved in 'assets_with_matches.csv' in data folder
