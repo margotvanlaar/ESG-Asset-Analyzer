@@ -11,7 +11,7 @@ A tool for analyzing and matching ESG assets to companies using NLP and LLMs.
 ## Installation
 1. Clone the respository
 ```bash
-   git clone 
+   git clone https://github.com/margotvanlaar/ESG-Asset-Analyzer.git
 ```
 
 3. Navigate to project directory
